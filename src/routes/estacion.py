@@ -1,6 +1,6 @@
 from flask import Blueprint, jsonify, request
 
-from src.models.entities.EstacionEdit import EstacionEit
+from src.models.entities.EstacionEdit import EstacionEdit
 
 from src.models.entities.EstacionAdd import EstacionAdd
 
