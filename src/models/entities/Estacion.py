@@ -1,13 +1,13 @@
 class Estacion():
 
-    def __init__(self, nombre, latitud, longitud):
-        self.nombre = nombre
-        self.latitud = latitud
-        self.longitud = longitud
+    def __init__(self, id, name, location):
+        self.id = id
+        self.name = name
+        self.location = location
 
     def to_JSON(self):
         return {
-            'nombre': self.nombre,
-            'latitud': self.latitud,
-            'longitud': self.longitud
+            'id': self.id,
+            'name': self.name,
+            'location': self.location
         }
